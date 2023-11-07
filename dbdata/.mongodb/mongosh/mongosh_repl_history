@@ -1,9 +1,0 @@
-db.Student.find()
-show collections
-use dbmongo
-show dbs
-showdbs
-show dbs
-show collections
-use mongodb
-show dbs

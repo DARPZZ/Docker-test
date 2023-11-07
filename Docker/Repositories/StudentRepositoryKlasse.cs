@@ -31,7 +31,7 @@ namespace Docker.Repositories
             }
             private readonly IMongoCollection<Student> _students;
 
-          
+
             public void add(Student std)
             {
                 _students.InsertOne(std);
@@ -40,10 +40,9 @@ namespace Docker.Repositories
 
             public Student? get(Guid id)
             {
-                return _students.Find(std => std.Id == id).FirstOrDefault() ;
+                return _students.Find(std => std.Id == id).FirstOrDefault();
             }
         }
 
     }
 }
-
