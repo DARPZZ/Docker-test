@@ -1,0 +1,4 @@
+show dbs
+show collections
+use mongodb
+show dbs
